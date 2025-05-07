@@ -1,26 +1,99 @@
 !DOCTYPE html>
-<html lang="ml">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>BR Helpdesk</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BR Helpdesk - Referral Hub</title>
   <style>
     body {
-      background: linear-gradient(to right, #ff9966, #66ccff);
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #ffcc70, #ff8c8c);
+      color: #333;
       text-align: center;
-      padding: 50px;
-      color: #fff;
     }
-    h1 {
-      font-size: 48px;
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
     }
-    p {
-      font-size: 20px;
+    .logo {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .referral-link {
+      margin: 10px 0;
+      padding: 15px;
+      background: white;
+      border-radius: 10px;
+      display: inline-block;
+      width: 90%;
+      max-width: 400px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .join-button {
+      margin-top: 20px;
+      background: #00b894;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .social {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #444;
+    }
+    img.placeholder {
+      width: 100%;
+      max-width: 300px;
+      margin-top: 20px;
+      border-radius: 20px;
+    }
+    @media (max-width: 600px) {
+      .referral-link {
+        width: 95%;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>BR Helpdesk Web App</h1>
-  <p>സ്വാഗതം! ഇത് GitHub Pages ഉപയോഗിച്ച് തയ്യാറാക്കിയ ഡെമോ വെബ്സൈറ്റ് ആണു.</p>
+  <header>
+    <div class="logo">BR HELP DESK</div>
+    <div>Your Trusted Referral Hub</div>
+  </header>
+
+  <div class="container">
+    <h2>Welcome to the Referral Hub</h2>
+    <p>Click below to earn money instantly by joining verified apps.</p>
+
+    <a href="https://roz-dhan.in/HANE1234" class="referral-link" target="_blank">
+      Roz Dhan - Earn ₹25 Instantly
+    </a>
+
+    <a href="https://cashkaro.com/invite/HANE5678" class="referral-link" target="_blank">
+      CashKaro - Get Cashback & Earn
+    </a>
+
+    <button class="join-button">Join BR Helpdesk</button>
+
+    <img src="https://via.placeholder.com/300x200.png?text=BR+Helpdesk" alt="BR Helpdesk Banner" class="placeholder"/>
+
+    <div class="social">
+      Contact us: <br/>
+      WhatsApp: +91 8943484667<br/>
+      Email: haneefbayar3@gmail.com
+    </div>
+  </div>
 </body>
 </html>
+
